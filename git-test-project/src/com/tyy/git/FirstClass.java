@@ -13,6 +13,7 @@ public class FirstClass {
     public static void hello(){
         for (int i = 0; i < 10; i++) {
             System.out.println("张三"+i);
+            System.out.println(i+"1");
         }
     }
 }
