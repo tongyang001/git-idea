@@ -6,13 +6,13 @@ public class FirstClass {
 
         System.out.println("hello git project");
         // hello test
+        hello();
     }
 
 
-    public void hello(){
-        int i = 0;
-        i ++;
-        System.out.println(++i);
-        // aaaaa
+    public static void hello(){
+        for (int i = 0; i < 10; i++) {
+            System.out.println("张三"+i);
+        }
     }
 }
