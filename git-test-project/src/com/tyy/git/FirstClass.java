@@ -7,4 +7,11 @@ public class FirstClass {
         System.out.println("hello git project");
 
     }
+
+
+    public void hello(){
+        int i = 0;
+        i ++;
+        System.out.println(i);
+    }
 }
